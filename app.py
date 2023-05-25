@@ -5,7 +5,7 @@ from plotly.subplots import make_subplots
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-import time
+
 df=pd.read_csv('new_updated_ipd5.csv')
 df2=pd.read_csv('IPL_Matches_2008_2022 (1).csv')
 new_df=pd.read_csv('split1.csv',low_memory=False,index_col=False)
